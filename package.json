@@ -1,0 +1,31 @@
+{
+  "name": "lenguajeplatzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Platzom",
+  "main": "dist/src/platzomlanguage.js",
+  "scripts": {
+    "build": "babel src/platzomlanguage.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebpequi/platzomlanguage.git"
+  },
+  "keywords": [
+    "platzom",
+    "fundamentos",
+    "js",
+    "javascript"
+  ],
+  "author": "Sebastian Perez <sebpequi@hotmail.com> (https://sebastianperezquintero.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebpequi/platzomlanguage/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
