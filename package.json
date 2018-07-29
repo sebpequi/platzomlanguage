@@ -1,5 +1,5 @@
 {
-  "name": "lenguajeplatzom",
+  "name": "newplatzomlanguage",
   "version": "0.1.0",
   "description": "Traductor de idioma Platzom",
   "main": "dist/src/platzomlanguage.js",
