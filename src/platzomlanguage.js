@@ -1,7 +1,7 @@
 export default function platzom(str){
   let translation = str
 
-  //Si la palabra origina es un palindromo,
+  //Si la palabra original es un palindromo,
   //ningua regla anterior cuenta u se devuelve
   //la misma palabra intercalando mayúsculas y minúsculas
   const alreves = (str) => str.split('').reverse().join('')
